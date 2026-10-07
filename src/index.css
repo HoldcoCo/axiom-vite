@@ -1,0 +1,54 @@
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:#0E1B2C;font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#0B4881;text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#083763}
+:focus-visible{outline:3px solid #5B9BD8;outline-offset:3px}
+input::placeholder{color:#8593A3}
+@keyframes vslIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes vslScene{from{opacity:0;transform:scale(.9);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+@keyframes vslPush{from{scale:1}to{scale:1.07}}
+@keyframes vslWipe{0%{transform:scaleX(0);opacity:1}60%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+@keyframes vslGrid{from{transform:translate(0,0)}to{transform:translate(44px,44px)}}
+@keyframes vslFade{from{opacity:0}to{opacity:1}}
+@keyframes vslGrow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes vslPop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+@keyframes vslDraw{from{stroke-dashoffset:300}to{stroke-dashoffset:0}}
+@keyframes vslArc{from{stroke-dasharray:0 300}to{stroke-dasharray:94 206}}
+@keyframes vslStrike{from{width:0}to{width:104%}}
+@keyframes vslPulse{0%{box-shadow:0 0 0 0 rgba(111,168,220,.6)}100%{box-shadow:0 0 0 18px rgba(111,168,220,0)}}
+@keyframes vslSlide{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* hover / focus states */
+.x1:hover{background:#083763 !important;color:#fff !important}
+.x2:hover{background:#083763 !important;color:#fff !important}
+.x3:hover{background:rgba(255,255,255,0.16) !important}
+.x4:hover{background:#E4EDF7 !important;color:#083763 !important}
+.x5:hover{border-color:#0B4881 !important}
+.x6:hover{border-color:#0B4881 !important}
+.x7:hover{border-color:#0B4881 !important}
+.x8:hover{border-color:#0B4881 !important}
+.x9:hover{border-color:#0B4881 !important}
+.x10:hover{border-color:#0B4881 !important}
+.x11:hover{border-color:#0B4881 !important}
+.x12:hover{border-color:#0B4881 !important}
+.x13:hover{border-color:#0B4881 !important}
+.x14:hover{border-color:#0B4881 !important}
+.x15:hover{border-color:#0B4881 !important}
+.x16:focus{border-color:#0B4881 !important;box-shadow:0 0 0 3px rgba(11,72,129,0.16) !important;outline:none !important}
+.x17:focus{border-color:#0B4881 !important;box-shadow:0 0 0 3px rgba(11,72,129,0.16) !important;outline:none !important}
+.x18:focus{border-color:#0B4881 !important;box-shadow:0 0 0 3px rgba(11,72,129,0.16) !important;outline:none !important}
+.x19:focus{border-color:#0B4881 !important;box-shadow:0 0 0 3px rgba(11,72,129,0.16) !important;outline:none !important}
+.x20:hover{background:#083763 !important}
+.x21:hover{color:#0B4881 !important}
+.x22:hover{color:#0B4881 !important}
+.x23:hover{color:#0B4881 !important}
+.x24:hover{color:#0B4881 !important}
+.x25:hover{border-color:#0B4881 !important}
+.x26:hover{border-color:#0B4881 !important}
+.x27:hover{background:#083763 !important}
+.x28:hover{background:#083763 !important;color:#fff !important}
+.x29:hover{color:#fff !important}
+.x30:hover{color:#fff !important}
+.x31:hover{color:#fff !important}
